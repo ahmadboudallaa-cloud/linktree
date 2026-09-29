@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #111111;
+  
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profileimage{
+height: min(250px , 90vw);
+width: min(250px , 90vw);
+border-radius: 50%;
+margin-top: 70px;
+object-fit: cover;
+outline: 3px solid rgb(5, 5, 131);
+outline-offset: 10px;
+
+
+
+}
+.name{
+    margin-top: 30px;
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: auto;
+   text-align: center;
+    
+}
+.metier{
+    color:rgba(123, 121, 121, 0.875);
+    font-size: 30px;
+    margin-top:5px ;
+    text-align: center;
+   
+    
+}
+.cartes{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    gap: 35px;
+    
+}
+.carte a {
+
+
+  background: linear-gradient(
+        0.5deg,
+        #050583,
+        #064d80,
+        #1493fb
+    );
+
+  color: white;
+ 
+    width: min(800px, 90vw);
+    height: 90px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 0 20px;
+    
+    text-decoration: none;
+
+}
+.fleche{
+    height: 20px;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    
+}
